@@ -1,18 +1,25 @@
+<!--
+ * @Author: xujie 1607526161@qq.com
+ * @Date: 2022-12-05 22:30:39
+ * @LastEditors: xujie 1607526161@qq.com
+ * @FilePath: \vue-ts\src\App.vue
+ * @Description: Vue根组件
+-->
 <template>
   <img alt="Vue logo" src="./assets/logo.png" />
   <HelloWorld msg="Welcome to Your Vue.js + TypeScript App" />
 </template>
 
 <script lang="ts">
-import { defineComponent } from "vue";
-import HelloWorld from "./components/HelloWorld.vue";
+import { defineComponent } from 'vue'
+import HelloWorld from './components/HelloWorld.vue'
 
 export default defineComponent({
-  name: "App",
+  name: 'App',
   components: {
-    HelloWorld,
-  },
-});
+    HelloWorld
+  }
+})
 </script>
 
 <style lang="scss">
