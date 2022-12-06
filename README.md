@@ -20,5 +20,5 @@
 3. 项目安装 eslint 依赖，定义 。而是eslint.js 文件来进行代码的约束(在书写代码时的提示和约束)
 4. 项目安装 eslint-plugin-prettier eslint-config-prettier 插件来整合 eslint prettier 之间的冲突
 5. 项目安装 husky 依赖，对 git 进行约束，在 .husky 文件夹中进行配置
-6. 项目安装 commitizen 依赖对于 commit 信息进行格式化步骤, 以后进行 commit 命令时替换成 npx cz 命令
-7. 项目安装 @commitlint/config-conventional @commitlint/cli 依赖对于 commit 的文本进行规范性检测，使用commit.config.js 引入这个依赖
+6. 项目安装 commitizen 依赖对于 commit 信息进行格式化步骤, 以后进行 commit 命令时替换成 npm run commit 命令
+7. 项目安装 @commitlint/config-conventional @commitlint/cli 依赖对于 commit 的文本进行规范性检测，使用commitlint.config.js 引入这个依赖

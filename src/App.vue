@@ -6,33 +6,19 @@
  * @Description: Vue根组件
 -->
 <template>
-  <img alt="Vue logo" src="./assets/logo.png" />
-  ddddxujiegadgasdg xujei vasdgajwrgas asd ga g gadgasdg a sdgasd asdgasd
-  agsdgadg
-  <div></div>
-
-  <HelloWorld msg="Welcome to Your Vue.js + TypeScript App" />
+  <div class="app">
+    {{ $store.state.name }}
+    <router-view></router-view>
+  </div>
 </template>
 
 <script lang="ts">
 import { defineComponent } from 'vue'
-import HelloWorld from './components/HelloWorld.vue'
 
 export default defineComponent({
   name: 'App',
-  components: {
-    HelloWorld
-  }
+  components: {}
 })
 </script>
 
-<style lang="scss">
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
-</style>
+<style lang="scss"></style>

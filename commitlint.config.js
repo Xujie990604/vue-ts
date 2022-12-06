@@ -5,6 +5,7 @@
  * @FilePath: \vue-ts\commit.config.js
  * @Description: 引入 git commit msg 校验插件
  */
+
 module.exports = {
   extends: ['@commitlint/config-conventional']
 }
