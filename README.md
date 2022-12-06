@@ -13,6 +13,11 @@
 - Vue3 + Router + Vuex
 - TS
 
+## 项目的目录结构
+
+.env.development 定义一些只有在开发环境中才能使用的常量
+.env.production  定义一些只有在生产环境中才能使用的常量
+
 ## 代码规范约束
 
 1. .editorconfig 文件对代码进行约束(是在写代码的时候进行约束)

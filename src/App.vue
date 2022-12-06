@@ -7,7 +7,7 @@
 -->
 <template>
   <div class="app">
-    {{ $store.state.name }}
+    <el-button>haha </el-button>
     <router-view></router-view>
   </div>
 </template>
