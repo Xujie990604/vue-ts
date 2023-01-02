@@ -3,7 +3,7 @@
  * @Date: 2022-12-06 15:19:19
  * @LastEditors: xujie 1607526161@qq.com
  * @FilePath: \vue-ts\src\vuex.d.ts
- * @Description: 解决 Vuex 上无法使用 $store 的问题
+ * @Description: Vuex 的类型声明
  */
 // vuex.d.ts
 import { ComponentCustomProperties } from 'vue'
