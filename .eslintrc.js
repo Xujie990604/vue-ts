@@ -1,7 +1,7 @@
 /*
  * @Author: xujie 1607526161@qq.com
  * @Date: 2022-12-05 22:30:39
- * @LastEditors: xujie 1607526161@qq.com
+ * @LastEditors: x09898 coder_xujie@163.com
  * @FilePath: \vue-ts\.eslintrc.js
  * @Description: eslint配置文件
  */
